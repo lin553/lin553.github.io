@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript中点击事件</title>
+  </head>
+
+  <body>
+    <button id="btn">Click</button>
+  
+    <script type="text/javascript">
+      // 方法一：使用 onclick 属性
+      var btn = document.getElementById("btn");
+      btn.onclick = function() {
+      alert("Hello World");
+      }
+    </script>
+    
+    <!-- 方法二：使用 addEventListener 方法, 此方法只要点击网页中任意位置，就会引起以下响应 -->
+    <script src="003.js"></script>    
+  </body>
+</html>
