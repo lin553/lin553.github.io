@@ -1,0 +1,43 @@
+<!-- 合并单元格：
+
+跨行合并: rowspan="n"，合并n行。
+跨列合并: colspan="n"，合并n列。
+
+先确定跨行还是跨列
+找好目标单元格(跨列合并, 左侧是目标单元格; 跨行合并, 上方是目标单元格)
+删除的多余的单元格 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>合并单元格</title>
+</head>
+<body>
+    <table border="1px" width="500px" height="200px" cellspacing="0" cellpadding="50" align="center">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+            </tr> 
+        </thead>   
+        <tr>
+            <td>张三</td>
+            <td rowspan="2">男</td>     <!--合并两行-->
+            <td>3</td>
+        </tr>    
+        <tr>
+            <td>李四</td>
+            <!-- <td>男</td> -->
+            <td>4</td>
+        </tr>    
+        <tr>
+            <td colspan="2">王五/女</td>    <!--合并两列-->
+            <!-- <td>女</td> -->
+            <td>5</td>
+        </tr> 
+    </table>
+</body>
+</html>

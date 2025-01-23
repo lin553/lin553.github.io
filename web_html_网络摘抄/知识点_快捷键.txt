@@ -1,0 +1,10 @@
+Emmet快捷键
+
+快速输入标签            input[tab]
+快速输入多个标签         div*3[tab]
+标签带id                div#sex[tab]
+标签带类名              div.sex[tab]
+标签带子元素            ul>li*3[tab]
+标签带兄弟元素          span+span
+标签带内容              div{hello}
+标签带内容(带编号)      div{$.hello}

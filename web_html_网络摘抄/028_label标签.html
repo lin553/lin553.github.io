@@ -1,0 +1,19 @@
+<!-- label标签
+搭配 input 使用。 点击 label 也能选中对应的单选/复选框, 能够提升用户体验。
+
+for 属性: 指定当前 label 和哪个相同 id 的 input 标签对应。(此时点击才是有用的) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <label for="male">男</label>
+    <input type="radio" name="sex" id="male">       <!--能通过点击汉字“男”或者“女”来选择的，所以用上label标签-->
+    <label for="female">女</label>
+    <input type="radio" name="sex" id="female">
+</body>
+</html>
