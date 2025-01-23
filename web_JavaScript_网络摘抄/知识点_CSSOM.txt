@@ -1,0 +1,85 @@
+CSS 对象模型（CSSOM）
+摘自：https://developer.mozilla.org/zh-CN/docs/Glossary/CSSOM
+    https://developer.mozilla.org/zh-CN/docs/Web/API/CSS_Object_Model
+
+CSS 对象模型（CSSOM）是一系列用于读取和修改文档样式相关的（CSS）信息的 API。
+换句话说，DOM 使得 JavaScript 可以读取和修改文档的结构和内容，CSSOM 则使得 JavaScript 可以读取和修改文档样式。
+
+
+
+CSS 对象模型是一组允许用 JavaScript 操纵 CSS 的 API。它很像 DOM，但针对的是 CSS 而不是 HTML。它允许用户动态地读取和修改 CSS 样式。
+CSS 的值是没有类型的，也就是使用 String 对象来表示。
+
+参考
+AnimationEvent
+CaretPosition
+CSS
+CSSConditionRule
+CSSCounterStyleRule
+CSSFontFaceRule
+CSSFontFeatureValuesMap
+CSSFontFeatureValuesRule
+CSSGroupingRule
+CSSImportRule
+CSSKeyframeRule
+CSSKeyframesRule
+CSSMarginRule
+CSSMediaRule
+CSSNamespaceRule
+CSSPageRule
+CSSRule
+CSSRuleList
+CSSStyleDeclaration
+CSSStyleSheet
+CSSStyleRule
+CSSSupportsRule
+FontFace
+FontFaceSet
+FontFaceSetLoadEvent
+MediaList
+MediaQueryList
+MediaQueryListEvent
+Screen
+StyleSheet
+StyleSheetList
+TransitionEvent
+
+CSSOM 相关规范也扩展了其他几个接口：Document、Window、Element、HTMLElement、HTMLImageElement、Range、MouseEvent 和 SVGElement。
+
+CSS 类型对象模型
+CSSImageValue
+CSSKeywordValue
+CSSMathInvert
+CSSMathMax
+CSSMathMin
+CSSMathNegate
+CSSMathProduct
+CSSMathSum
+CSSMathValue
+CSSMatrixComponent
+CSSNumericArray
+CSSNumericValue
+CSSPerspective
+CSSPositionValue
+CSSRotate
+CSSScale
+CSSSkew
+CSSSkewX
+CSSSkewY
+CSSStyleValue
+CSSTransformComponent
+CSSTransformValue
+CSSTranslate
+CSSUnitValue
+CSSUnparsedValue
+CSSVariableReferenceValue
+StylePropertyMap
+StylePropertyMapReadOnly
+
+
+废弃的 CSSOM 接口 已弃用
+已弃用: 不再推荐使用该特性。虽然一些浏览器仍然支持它，但也许已从相关的 web 标准中移除，也许正准备移除或出于兼容性而保留。请尽量不要使用该特性，并更新现有的代码；参见本页面底部的兼容性表格以指导你作出决定。请注意，该特性随时可能无法正常工作。
+
+CSSPrimitiveValue 已弃用
+CSSValue 已弃用
+CSSValueList 已弃用
